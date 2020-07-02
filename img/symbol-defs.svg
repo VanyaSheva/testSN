@@ -1,0 +1,16 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="STAR" viewBox="0 0 12 12">
+<title>STAR</title>
+<path
+  d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z"
+ fill="#C6CAD9" />
+ </symbol>
+ <symbol id="STAR-ACTIVE" viewBox="0 0 12 12">
+<title>STAR</title>
+<path
+  d="M6 0L7.34708 4.1459H11.7063L8.17963 6.7082L9.52671 10.8541L6 8.2918L2.47329 10.8541L3.82037 6.7082L0.293661 4.1459H4.65292L6 0Z"
+ fill="#FFD645" />
+ </symbol>
+</defs>
+</svg>

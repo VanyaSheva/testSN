@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Test task</title>
+  </head>
+  <body>
+    <header></header>
+    <div class="wrapper">
+      <main>
+        <div class="left-container">
+          <div class="left-container__top"></div>
+          <div class="left-container__bottom"></div>
+        </div>
+        <div class="right-container">
+          <nav class="navigation">
+            <ul class="navigation-list list">
+              <li
+                class="navigation-list__item active"
+                data-link="tab-documents"
+              >
+                Travel Documents
+              </li>
+              <li class="navigation-list__item" data-link="tab-programs">
+                Loyalty Programs
+              </li>
+              <li class="navigation-list__item" data-link="tab-preferences">
+                Travel Preferences
+              </li>
+            </ul>
+          </nav>
+          <div class="tab-pane" id="tab-documents">
+            <div class="tab-container">
+              <ul class="documents-list">
+                <li class="documents-list__item">
+                  <button class="delete"></button>
+                  <div class="country-info">
+                    <img
+                      src="./img/Rectangle 727.png"
+                      alt="country-flag"
+                      class="documents-list__item-image"
+                    />
+                    <p class="documents-list__item-country">Ukraine</p>
+                  </div>
+                  <p class="documents-list__item-seria">FJ22346</p>
+                  <p class="documents-list__item-date">April 25, 2020</p>
+                </li>
+                <li class="documents-list__item">
+                  <div class="country-info">
+                    <img
+                      src="./img/Rectangle 728.png"
+                      alt="country-flag"
+                      class="documents-list__item-image"
+                    />
+                    <p class="documents-list__item-country">United Kingdom</p>
+                  </div>
+                  <p class="documents-list__item-seria">FJ22346</p>
+                  <p class="documents-list__item-date">April 25, 2020</p>
+                </li>
+                <li class="documents-list__item open-modal-item">
+                  <button class="add-passport">
+                    <img src="./img/+.png" alt="" class="add-passport_img" />
+                  </button>
+                  <p class="add-passport_text">Add new passport</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="tab-pane none" id="tab-programs"></div>
+          <div class="tab-pane none" id="tab-preferences">
+            <form action="" class="preference-form form">
+              <p class="form-text">Preffered Airlines</p>
+              <select name="airlines-select" class="form-input" disabled>
+                <option value="none" hidden="">Add airlines</option>
+              </select>
+            </form>
+            <ul class="preference-list">
+              <li class="preference-list__item">
+                <button class="delete"></button>
+                <p class="preference-list__item-text">
+                  Singapore Airlines
+                </p>
+              </li>
+              <li class="preference-list__item">
+                <p class="preference-list__item-text">Qatar Airways</p>
+              </li>
+              <li class="preference-list__item">
+                <p class="preference-list__item-text">ANA All Nippon Airways</p>
+              </li>
+              <li class="preference-list__item">
+                <p class="preference-list__item-text">Emirates</p>
+              </li>
+            </ul>
+            <form action="" class="preference-form form">
+              <p class="form-text">Preferred Hotel Brands</p>
+              <select name="hotel-preference" class="form-input" disabled>
+                <option value="none" hidden="">Add Hotel Brands</option>
+              </select>
+            </form>
+            <ul class="preference-list">
+              <li class="preference-list__item">
+                <p class="preference-list__item-text">Hilton</p>
+              </li>
+              <li class="preference-list__item">
+                <p class="preference-list__item-text">Westin</p>
+              </li>
+              <li class="preference-list__item">
+                <p class="preference-list__item-text">Four Seasons</p>
+              </li>
+              <li class="preference-list__item">
+                <p class="preference-list__item-text">Ritz-Carlton</p>
+              </li>
+            </ul>
+            <p class="form-text">Preferred by Stars</p>
+            <ul class="checkbox-list list">
+              <li class="checkbox-list__item">
+                <label for="5stars" class="checkbox-label"
+                  ><input type="checkbox" id="5stars" />
+                  <span class="pseudocheckbox"></span
+                ></label>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR-ACTIVE"></use>
+                </svg>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR-ACTIVE"></use>
+                </svg>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR-ACTIVE"></use>
+                </svg>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR-ACTIVE"></use>
+                </svg>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR-ACTIVE"></use>
+                </svg>
+              </li>
+
+              <li class="checkbox-list__item">
+                <label for="4stars" class="checkbox-label"
+                  ><input type="checkbox" id="4stars" />
+                  <span class="pseudocheckbox"></span
+                ></label>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR-ACTIVE"></use>
+                </svg>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR-ACTIVE"></use>
+                </svg>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR-ACTIVE"></use>
+                </svg>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR-ACTIVE"></use>
+                </svg>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR"></use>
+                </svg>
+              </li>
+              <li class="checkbox-list__item">
+                <label for="3stars" class="checkbox-label"
+                  ><input type="checkbox" id="3stars" />
+                  <span class="pseudocheckbox"></span
+                ></label>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR-ACTIVE"></use>
+                </svg>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR-ACTIVE"></use>
+                </svg>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR-ACTIVE"></use>
+                </svg>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR"></use>
+                </svg>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR"></use>
+                </svg>
+              </li>
+              <li class="checkbox-list__item">
+                <label for="2stars" class="checkbox-label"
+                  ><input type="checkbox" id="2stars" />
+                  <span class="pseudocheckbox"></span
+                ></label>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR-ACTIVE"></use>
+                </svg>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR-ACTIVE"></use>
+                </svg>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR"></use>
+                </svg>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR"></use>
+                </svg>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR"></use>
+                </svg>
+              </li>
+              <li class="checkbox-list__item">
+                <label for="1stars" class="checkbox-label"
+                  ><input type="checkbox" id="1stars" />
+                  <span class="pseudocheckbox"></span
+                ></label>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR-ACTIVE"></use>
+                </svg>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR"></use>
+                </svg>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR"></use>
+                </svg>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR"></use>
+                </svg>
+                <svg>
+                  <use href="img/symbol-defs.svg#STAR"></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="lightbox js-lightbox">
+      <div class="lightbox__overlay"></div>
+
+      <div class="lightbox__content">
+        <div class="container">
+          <div class="lightbox__content-top list">
+            <p class="form-text">Add new passport</p>
+            <button
+              type="button"
+              class="lightbox__button"
+              data-action="close-lightbox"
+            ></button>
+          </div>
+          <form action="" class="lightbox__content-bottom form">
+            <input
+              type="text"
+              class="form-input"
+              placeholder="First Name"
+              required
+            />
+            <input
+              type="text"
+              class="form-input"
+              placeholder="Last Name"
+              required
+            />
+            <input
+              type="text"
+              class="form-input"
+              placeholder="Passport Number"
+              required
+            />
+            <select name="passport-country" class="form-input" disabled>
+              <option value="none" hidden="">Passport Country</option>
+            </select>
+            <input
+              type="text"
+              class="form-input date-input"
+              placeholder="Passport Expiration Date"
+              required
+            />
+            <select name="nationality" class="form-input" disabled>
+              <option value="none" hidden="">Nationality</option>
+            </select>
+          </form>
+          <button class="form-button">Save</button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>
