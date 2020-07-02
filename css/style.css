@@ -348,12 +348,12 @@ select {
   -moz-appearance: none; /* Firefox */
   -webkit-appearance: none; /* Safari and Chrome */
   appearance: none;
-  background-image: url("/img/calendar.svg");
+  background-image: url("../img/calendar.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
 }
 .date-input {
-  background-image: url("/img/Group.svg");
+  background-image: url("../img/Group.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
 }
@@ -465,7 +465,7 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:checked + .pseudocheckbox::before {
   content: "";
-  background-image: url("/img/checkArrow.svg");
+  background-image: url("../img/checkArrow.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 10px 10px;
