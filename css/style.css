@@ -465,7 +465,7 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:checked + .pseudocheckbox::before {
   content: "";
-  background-image: url("/img/Vector\ \(2\).svg");
+  background-image: url("/img/checkArrow.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 10px 10px;
